@@ -24,7 +24,7 @@ int omonoff = 0;
 
 BLYNK_CONNECTED() {
   Blynk.syncAll();
-  bridge1.setAuthToken("IJE8QhmLVNQj1hg6bED4uxinWpp63qm2");
+  bridge1.setAuthToken("-----");
 }
 
 BLYNK_WRITE(V10)
